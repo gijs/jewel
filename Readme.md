@@ -66,6 +66,7 @@ var post = Post.find({ limit: 1 })[0];
 // Finding second post
 
 post = Post.find({ skip: 1 })[0];
+post.title; // "Second title"
 
 // Updating post
 
